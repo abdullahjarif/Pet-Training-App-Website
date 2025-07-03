@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canine Scholars - Smart Pet Training App</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=50&h=50&fit=crop" alt="Canine Scholars" class="logo">
+                <span class="brand-text">canine scholars</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#profile" class="nav-link">Profile</a></li>
+                    <li><a href="#logging" class="nav-link">Logging</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="download-btn">
+                    <i class="fas fa-download"></i>
+                    Download
+                </button>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Download Our<br>
+                        <span class="highlight">New Potty Log</span>
+                    </h1>
+                    <p class="hero-description">
+                        Track your pet's potty and meals with our smart Puppy Potty Log and 
+                        use AI-powered data analysis to create a custom housetraining schedule 
+                        unique to your fur baby.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">50K+</div>
+                            <div class="stat-label">Happy Dogs</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">25K+</div>
+                            <div class="stat-label">Downloads</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Success Rate</div>
+                        </div>
+                    </div>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn ios">
+                            <i class="fab fa-apple"></i>
+                            <div class="btn-text">
+                                <small>Download on the</small>
+                                <strong>App Store</strong>
+                            </div>
+                        </a>
+                        <a href="#" class="app-btn android">
+                            <i class="fab fa-google-play"></i>
+                            <div class="btn-text">
+                                <small>Get it on</small>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-phone">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="phone-header">
+                                <div class="phone-time">9:41</div>
+                                <div class="phone-status">
+                                    <i class="fas fa-signal"></i>
+                                    <i class="fas fa-wifi"></i>
+                                    <div class="battery"></div>
+                                </div>
+                            </div>
+                            <div class="app-interface">
+                                <div class="app-header">
+                                    <h3>canine scholars</h3>
+                                    <p>Today's Activity</p>
+                                </div>
+                                <div class="progress-circle">
+                                    <div class="progress-text">
+                                        <span class="progress-number">75%</span>
+                                        <span class="progress-label">Complete</span>
+                                    </div>
+                                </div>
+                                <div class="activity-log">
+                                    <div class="log-item">
+                                        <div class="log-icon">💩</div>
+                                        <div class="log-details">
+                                            <div class="log-time">8:30 AM</div>
+                                            <div class="log-type">Morning Poop</div>
+                                        </div>
+                                        <div class="log-status">✓</div>
+                                    </div>
+                                    <div class="log-item">
+                                        <div class="log-icon">💧</div>
+                                        <div class="log-details">
+                                            <div class="log-time">7:15 AM</div>
+                                            <div class="log-type">Morning Pee</div>
+                                        </div>
+                                        <div class="log-status">✓</div>
+                                    </div>
+                                </div>
+                                <div class="quick-actions">
+                                    <button class="action-btn">💩</button>
+                                    <button class="action-btn">💧</button>
+                                    <button class="action-btn">🍽️</button>
+                                    <button class="action-btn">💊</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">Everything you need to train your furry friend</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3>Smart Logging</h3>
+                    <p>One-tap logging with intelligent predictions and automatic scheduling based on your pet's patterns.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h3>Custom Profiles</h3>
+                    <p>Create detailed profiles for each pet with photos, breed info, age, and personalized training goals.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Alerts</h3>
+                    <p>AI-powered notifications for feeding times, potty breaks, and training reminders based on your pet's schedule.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Progress Analytics</h3>
+                    <p>Detailed insights and progress tracking with beautiful charts to monitor your pet's training journey.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Family Sharing</h3>
+                    <p>Share pet care responsibilities with family members and sync data across all devices in real-time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Training Tips</h3>
+                    <p>Expert advice and personalized training tips from certified dog trainers based on your pet's progress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile-section" id="profile">
+        <div class="container">
+            <div class="profile-content">
+                <div class="profile-text">
+                    <h2>Personalized Profiles</h2>
+                    <p>Create detailed profiles for each of your pets. Add photos, track their growth, set training goals, and monitor their progress over time.</p>
+                    <div class="profile-features">
+                        <div class="profile-feature">
+                            <i class="fas fa-camera"></i>
+                            <div>
+                                <h4>Photo Gallery</h4>
+                                <p>Capture and store your pet's precious moments</p>
+                            </div>
+                        </div>
+                        <div class="profile-feature">
+                            <i class="fas fa-chart-bar"></i>
+                            <div>
+                                <h4>Growth Tracking</h4>
+                                <p>Monitor weight, height, and development milestones</p>
+                            </div>
+                        </div>
+                        <div class="profile-feature">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Health Records</h4>
+                                <p>Keep track of vaccinations and vet visits</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="cta-btn">Create Profile</button>
+                </div>
+                <div class="profile-phone">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="profile-interface">
+                                <div class="profile-header">
+                                    <div class="profile-cover"></div>
+                                    <div class="profile-avatar">
+                                        <img src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Dog">
+                                    </div>
+                                </div>
+                                <div class="profile-info">
+                                    <h3>Max</h3>
+                                    <p>Golden Retriever</p>
+                                    <div class="profile-tags">
+                                        <span class="tag">Friendly</span>
+                                        <span class="tag">Energetic</span>
+                                        <span class="tag">Smart</span>
+                                    </div>
+                                </div>
+                                <div class="profile-stats">
+                                    <div class="stat">
+                                        <div class="stat-value">12</div>
+                                        <div class="stat-label">Weeks</div>
+                                    </div>
+                                    <div class="stat">
+                                        <div class="stat-value">15</div>
+                                        <div class="stat-label">lbs</div>
+                                    </div>
+                                    <div class="stat">
+                                        <div class="stat-value">85%</div>
+                                        <div class="stat-label">Trained</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logging Section -->
+    <section class="logging-section" id="logging">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Effortless Logging</h2>
+                <p class="section-subtitle">Track everything with just one tap</p>
+            </div>
+            <div class="logging-demo">
+                <div class="logging-categories">
+                    <button class="category-btn active">All Activities</button>
+                    <button class="category-btn">Bathroom</button>
+                    <button class="category-btn">Feeding</button>
+                    <button class="category-btn">Activities</button>
+                    <button class="category-btn">Health</button>
+                </div>
+                <div class="logging-phone">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="logging-interface">
+                                <div class="logging-header">
+                                    <h3>Quick Log</h3>
+                                    <div class="date">Today</div>
+                                </div>
+                                <div class="quick-log-grid">
+                                    <button class="quick-log-btn">
+                                        <div class="log-icon">💩</div>
+                                        <span>Poop</span>
+                                    </button>
+                                    <button class="quick-log-btn">
+                                        <div class="log-icon">💧</div>
+                                        <span>Pee</span>
+                                    </button>
+                                    <button class="quick-log-btn">
+                                        <div class="log-icon">🍽️</div>
+                                        <span>Food</span>
+                                    </button>
+                                    <button class="quick-log-btn">
+                                        <div class="log-icon">🚶</div>
+                                        <span>Walk</span>
+                                    </button>
+                                    <button class="quick-log-btn">
+                                        <div class="log-icon">🎾</div>
+                                        <span>Play</span>
+                                    </button>
+                                    <button class="quick-log-btn">
+                                        <div class="log-icon">💊</div>
+                                        <span>Medicine</span>
+                                    </button>
+                                </div>
+                                <div class="timeline">
+                                    <h4>Today's Timeline</h4>
+                                    <div class="timeline-item">
+                                        <div class="timeline-time">8:30 AM</div>
+                                        <div class="timeline-content">
+                                            <div class="timeline-icon">🌅</div>
+                                            <div class="timeline-text">Good morning, Max!</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Pet Parents Say</h2>
+                <p class="section-subtitle">Join thousands of happy pet families</p>
+            </div>
+            <div class="testimonial-carousel">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card active">
+                        <div class="stars">★★★★★</div>
+                        <h3>Life Changing App!</h3>
+                        <p>"This app completely transformed how we train our puppy. The smart notifications are incredibly accurate, and the progress tracking keeps us motivated."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&fit=crop" alt="Sarah">
+                            <div>
+                                <div class="author-name">Sarah Johnson</div>
+                                <div class="author-location">San Francisco, CA</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <h3>Perfect for Busy Families</h3>
+                        <p>"As a working parent, this app is a godsend. The family sharing feature lets my kids help with pet care, and I can track everything from work."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&fit=crop" alt="Mike">
+                            <div>
+                                <div class="author-name">Mike Chen</div>
+                                <div class="author-location">Austin, TX</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <h3>Veterinarian Approved</h3>
+                        <p>"I recommend this app to all my clients. The detailed logging helps me understand each pet's patterns, and the health tracking features are incredibly useful."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&fit=crop" alt="Dr. Lisa">
+                            <div>
+                                <div class="author-name">Dr. Lisa Rodriguez</div>
+                                <div class="author-location">Veterinarian, Miami, FL</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" id="prevBtn">‹</button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="testimonial-btn next" id="nextBtn">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA Section -->
+    <section class="download-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Training?</h2>
+                <p>Join thousands of pet parents who have successfully trained their dogs with our smart, intuitive app. Download now and get started today!</p>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <i class="fas fa-check"></i>
+                        <span>Free 7-day trial</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-check"></i>
+                        <span>No credit card required</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-check"></i>
+                        <span>Cancel anytime</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-btn ios">
+                        <i class="fab fa-apple"></i>
+                        <div>
+                            <small>Download for</small>
+                            <strong>iPhone</strong>
+                        </div>
+                    </a>
+                    <a href="#" class="cta-btn android">
+                        <i class="fab fa-google-play"></i>
+                        <div>
+                            <small>Download for</small>
+                            <strong>Android</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=50&h=50&fit=crop" alt="Canine Scholars" class="footer-logo">
+                        <span>canine scholars</span>
+                    </div>
+                    <p>Making pet training smarter, easier, and more effective for families worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#features">Smart Logging</a></li>
+                        <li><a href="#profile">Custom Profiles</a></li>
+                        <li><a href="#logging">Progress Tracking</a></li>
+                        <li><a href="#testimonials">Family Sharing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Training Tips</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Canine Scholars. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
